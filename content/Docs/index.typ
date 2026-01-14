@@ -1,5 +1,5 @@
 #import "../index.typ": template, tufted
-#show: template
+#show: template.with(title: "Docs")
 
 = 文档 / Docs
 
@@ -7,3 +7,4 @@
 // - #link("typst-example/", "Typst 功能速览与样例")
 // - #link("github-deploy/", "GitHub 网站部署")
 // - #link("custom-styling/", "自定义样式")
+- #link("rigid-body-dynamics/", "刚体动力学")

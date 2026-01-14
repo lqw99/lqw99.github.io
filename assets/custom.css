@@ -1,3 +1,13 @@
+/* a {
+  color: red !important;
+} */
+
+/* 移除行间数学公式下方空白 */
+figure[role="math"] {
+  margin: 0 0 0 0;
+}
+
+
 html {
   font-size: 10.5pt;
 }
@@ -5,7 +15,8 @@ html {
 /* 设置段落两端对齐 */
 p {
   text-align: justify;
-  text-justify: inter-ideograph; /* 针对中文优化，改善标点和汉字间距 */
+  text-justify: inter-ideograph;
+  /* 针对中文优化，改善标点和汉字间距 */
 }
 
 /* 增加段落行高，原为 2rem */
@@ -24,7 +35,6 @@ h4,
 h5 {
   font-style: normal;
   font-weight: bold;
-  color: #111;
 }
 
 h2 {
@@ -55,18 +65,22 @@ h5 {
   margin-bottom: 0.5rem;
 }
 
+
+
+
 /* 英文/数字部分：倾斜、加粗 */
 .heading-en {
   font-style: italic;
 }
 
 /* 覆盖 Tufte CSS 的默认代码块样式 */
-pre > code {
+pre>code {
   width: 95%;
   /* 原为 52.5%，改为 100% 以适应父容器 */
   font-size: 1.2rem;
   /* 原为 0.9rem，增大字体 */
-  line-height: 1.5; /* 显式设置行高以对齐行号 */
+  line-height: 1.5;
+  /* 显式设置行高以对齐行号 */
   margin-left: 0%;
   background-color: transparent;
   /* 避免代码块内重复背景 */
@@ -90,9 +104,12 @@ pre.has-line-numbers {
   user-select: none;
   text-align: right;
   min-width: 1.2em;
-  font-size: 1.2rem; /* 匹配代码字体大小 */
-  line-height: 1.5; /* 匹配代码行高 */
-  font-family: monospace; /* 确保字体一致 */
+  font-size: 1.2rem;
+  /* 匹配代码字体大小 */
+  line-height: 1.5;
+  /* 匹配代码行高 */
+  font-family: monospace;
+  /* 确保字体一致 */
 }
 
 /* 调整行内代码大小及样式 */

@@ -1,5 +1,5 @@
 #import "../index.typ": template, tufted
-#show: template.with(title: "Liu Qingwu")
+#show: template.with(title: "CV")
 #import "@preview/citegeist:0.2.0": load-bibliography
 
 = Liu Qingwu
