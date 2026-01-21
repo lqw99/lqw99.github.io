@@ -6,7 +6,7 @@
 - [1] Biped Walking Pattern Generation by using Preview Control of Zero-Moment Point
 - [2] Capture Point: A Step toward Humanoid Push Recovery
 
-#image("/content/Papers/LIPM/asset/pendulum_under_constraint.png", width: 30%)
+#image("./asset/pendulum_under_constraint.png", width: 30%)
 当我们对一个倒立摆施加约束控制, 使其质心只能沿着一个任意给定的平面运动时, 我们便得到了一个简化的线性动力学模型, 称为三维线性倒立摆, 根据上图所示的坐标系, 约束平面可由法向向量$(k_x,k_y,1)$及其和z轴的交点$z_c$确定
 $
   z = k_x x + k_y y + z_c

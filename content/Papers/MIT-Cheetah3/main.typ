@@ -6,7 +6,7 @@
 = MIT Cheetah 3: Design and Control of a Robust, Dynamic Quadruped Robot
 
 腿部设计
-#image("/content/Papers/MIT-Cheetah3/assets/coordinate_system.png", width: 60%)
+#image("./assets/coordinate_system.png", width: 60%)
 每个腿有三个自由度,分别由以下三个关节上的驱动器控制,实现对地面接触力的完全三维控制
 - abduction/adduction (ab/ad) 外展和内收关节,带动整个腿部绕本体X轴方向转动
 - hip 臀部关节,带动整个腿部绕本体Y轴方向转动
