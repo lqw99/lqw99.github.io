@@ -7,7 +7,7 @@
   header-links: (
     "/": "Home",
     "/Docs/": "Lecture Notes",
-    "/Blog/": "Paper Notes",
+    "/Papers/": "Paper Notes",
     "/CV/": "CV",
   ),
   lang: "zh",
